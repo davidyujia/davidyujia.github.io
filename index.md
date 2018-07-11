@@ -1,11 +1,9 @@
 ---
 layout: default
-title: My Blog
+title: Index
 ---
 
-{{ page.title }}
-
-# NEW POST
+# {{ page.title }}
 
 {% for post in site.posts %}
 

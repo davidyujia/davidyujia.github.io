@@ -3,7 +3,7 @@ layout: default
 title: Archives
 ---
 
-# Archives
+# {{ page.title }}
 
 {% for post in site.posts %}
 
