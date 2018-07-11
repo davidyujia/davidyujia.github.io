@@ -1,4 +1,4 @@
-baseurl: https://coolwhispers.github.io/
+baseuri: https://coolwhispers.github.io/
 name: MyBlog
 paginate: 5
 defaults:
