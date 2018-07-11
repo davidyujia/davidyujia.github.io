@@ -12,9 +12,10 @@ title: Index
 - {{ post.date | date_to_string }}
 
 - Tags :{% for tag in post.tags %} [{{ tag }}](/tags/{{ tag }})
+    {% endfor %}
 
     {% if forloop.last != true %}
 ---
-    {% endif %} {% endfor %}
+    {% endif %} 
 
 {% endfor %}
