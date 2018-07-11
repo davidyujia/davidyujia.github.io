@@ -5,5 +5,3 @@ tags: test test2
 ---
 
 Frist Post
-
-{{ page.date | date_to_string }}
