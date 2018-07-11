@@ -4,4 +4,9 @@ title : Archive
 header : Post Archive
 ---
 
-{% assign posts_collate = site.posts %}
+
+{% for post in site.posts %}
+
+- [{{ post.date | date_to_string }}]({{ site.baseurl }}{{ post.url }}) {{ post.title }}
+
+{% endfor %}
