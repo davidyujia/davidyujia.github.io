@@ -6,6 +6,6 @@ title: Archives
 
 {% for post in site.posts %}
 
-- [{{ post.date | date_to_string }}]({{ site.baseurl }}{{ post.url }}) {{ post.title }}
+- [{{ post.date | date_to_string }}]({{ site.github.url }}{{ post.url }}) {{ post.title }}
 
 {% endfor %}
