@@ -9,7 +9,7 @@
 # Setup
 title:            Savage Note
 tagline:          'Simple Blog'
-description:      'abc'
+description:      ''
 url:              https://coolwhispers.github.io
 baseurl:          /
 
