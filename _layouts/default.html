@@ -5,11 +5,17 @@
 {% include head.html %}
 
 <body>
-    {% include navbar.html %}
     <div class="container">
-        {{ content }}
+        {% include navbar.html %}
+
+        <div class="row">
+            <div class="col-sm">
+                {{ content }}
+            </div>
+        </div>
+        
+        {% include footer.html %}
     </div>
-    {% include footer.html %}
 </body>
 
 </html>
