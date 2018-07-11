@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+#markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
@@ -7,7 +7,7 @@ highlighter:      pygments
 #relative_permalinks: true
 
 # Setup
-title:            Savage Blog
+title:            Savage Note
 tagline:          'Simple Blog'
 description:      'abc'
 url:              https://coolwhispers.github.io
