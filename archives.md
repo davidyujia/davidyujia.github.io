@@ -1,9 +1,9 @@
 ---
-layout: page
-title : Archive
-header : Post Archive
+layout: default
+title: Archives
 ---
 
+# Archives
 
 {% for post in site.posts %}
 
