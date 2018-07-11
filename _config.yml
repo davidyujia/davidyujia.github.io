@@ -21,3 +21,10 @@ paginate:         5
 
 github:
   repo:           https://github.com/coolwhispers
+
+defaults:
+  -
+    scope:
+      path: "_post"
+    values:
+      layout: "post"
