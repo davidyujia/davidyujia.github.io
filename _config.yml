@@ -1,0 +1,88 @@
+### your site title here
+
+title: 雜物儲存室
+baseurl: / # name of the repository
+email: davidyujia@gmail.com
+author: David
+
+# SEO
+lang: zh_tw
+logo: "/assets/images/html-coding.png"
+
+highlighter: rouge
+markdown: kramdown
+
+paginate: 5
+
+# Tracker
+analytics: UA-122167031-1
+
+# Comments
+disqus-shortname: davidyujia
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/html-coding.png"
+  - scope:
+      path: "/_posts"
+    values:
+      layout: "post"
+      image: "/assets/images/html-coding.png"
+
+#optimization
+#compress.html
+compress_html:
+  clippings:
+    [
+      html,
+      div,
+      p,
+      ul,
+      td,
+      h1,
+      h2,
+      h3,
+      h4,
+      link,
+      meta,
+      footer,
+      nav,
+      img,
+      header,
+      hr,
+      br,
+      head,
+      style,
+      li,
+      ul,
+      ol,
+      time,
+      main,
+      script,
+      title,
+    ]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
