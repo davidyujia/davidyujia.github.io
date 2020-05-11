@@ -4,10 +4,54 @@ tags: dotnetcore angular
 tagline: 
 ---
 
-angular.json
+1. Create project use dotnet core Angular project
 
-ng serve --verbose
+    ```cmd
+    dotnet new angular
+    ```
 
+1. Remove ClientApp folder
+
+1. Create new Angular project with Angular CLI
+
+    ```cmd
+    ng new ClientApp --skipGit --skipInstall
+    ```
+
+1. Modify output path in `angular.json`
+
+    ```json
+    {
+        "options": {
+            "outputPath": "dist"
+        }
+    }
+    ```
+
+1. Modify `ng server` to `ng serve --verbose` in `package.json`
+
+    ```json
+    {
+    "scripts": {
+        "start": "ng serve --verbose"
+      }
+    }
+    ```
+
+## Publish
+
+```cmd
 dotnet publish -c release
+```
 
-ng build --base-href=/dir/
+## Change base href
+
+If your website not in root, modify build option in `package.json`
+
+```json
+{
+  "scripts": {
+    "build": "ng build --base-href=/YourBasePath/"
+  }
+}
+```
