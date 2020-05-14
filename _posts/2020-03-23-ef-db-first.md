@@ -4,6 +4,12 @@ tags: dotnetcore
 tagline: 
 ---
 
+## 安裝 EF 工具
+
+```cmd
+dotnet tool install dotnet-ef -g
+```
+
 ## 將 Microsoft.EntityFrameworkCore.Design 加入至專案
 
 `5.0.0` 目前是 preview 版本, 這邊安裝 `3.1.2`
