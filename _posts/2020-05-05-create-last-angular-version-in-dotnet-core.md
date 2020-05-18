@@ -1,8 +1,10 @@
 ---
-title: draft
+title: 在 .NET Core Angular 範本使用新版本的 Angular 專案
 tags: dotnetcore angular
 tagline: 
 ---
+
+目前 .NET Core 範本提供的是 Angular 8, 但是想使用新的版本建立專案所以研究了一下
 
 1. 使用 `ASP.NET Core with Angular` 範本建立專案.
 
@@ -18,7 +20,7 @@ tagline:
     ng new ClientApp --skipGit --skipInstall
     ```
 
-1. 修改 `angular.json` 內的輸出路徑
+1. 修改 `angular.json` 內的輸出路徑, 讓 .NET Core 在 publish 或 debug 時可以找到 Angular 前端檔案
 
     ```json
     {
@@ -28,7 +30,7 @@ tagline:
     }
     ```
 
-1. 將 `package.json` 內的 `ng server` 修改成 `ng serve --verbose`
+1. 如果 .NET Core 在 debug 時一直無法正確開啟前端專案, 則將 `package.json` 內的 `ng server` 修改成 `ng serve --verbose`
 
     ```json
     {
@@ -38,7 +40,7 @@ tagline:
     }
     ```
 
-## 發行
+## Publish
 
 ```cmd
 dotnet publish -c release
