@@ -4,21 +4,21 @@ tags: dotnetcore angular
 tagline: 
 ---
 
-1. Create project use dotnet core Angular project
+1. 使用 `ASP.NET Core with Angular` 範本建立專案.
 
     ```cmd
     dotnet new angular
     ```
 
-1. Remove ClientApp folder
+1. 移除專案內的 `ClientApp` 資料夾
 
-1. Create new Angular project with Angular CLI
+1. 使用 Angular CLI 建立新的 Angular 專案
 
     ```cmd
     ng new ClientApp --skipGit --skipInstall
     ```
 
-1. Modify output path in `angular.json`
+1. 修改 `angular.json` 內的輸出路徑
 
     ```json
     {
@@ -28,7 +28,7 @@ tagline:
     }
     ```
 
-1. Modify `ng server` to `ng serve --verbose` in `package.json`
+1. 將 `package.json` 內的 `ng server` 修改成 `ng serve --verbose`
 
     ```json
     {
@@ -38,15 +38,15 @@ tagline:
     }
     ```
 
-## Publish
+## 發行
 
 ```cmd
 dotnet publish -c release
 ```
 
-## Change base href
+## 修改 html base tag 的 href 屬性
 
-If your website not in root, modify build option in `package.json`
+如果你的網站不是放在網站根目錄, 需要修改 `package.json` 裡的 `build` 指令, 或是發行後手動修改 `index.html` 裡的 `base` HTML tag.
 
 ```json
 {
