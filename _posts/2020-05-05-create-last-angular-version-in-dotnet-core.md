@@ -48,7 +48,7 @@ dotnet publish -c release
 
 ## 修改 html base tag 的 href 屬性
 
-如果你的網站不是放在網站根目錄, 需要修改 `package.json` 裡的 `build` 指令, 或是發行後手動修改 `index.html` 裡的 `base` HTML tag.
+如果網站不是放在網站根目錄, 需要修改 `package.json` 裡的 `build` 指令, 或是發行後手動修改 `index.html` 裡的 `base` HTML tag.
 
 ```json
 {
