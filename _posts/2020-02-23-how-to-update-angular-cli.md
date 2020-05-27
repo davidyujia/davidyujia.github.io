@@ -1,6 +1,6 @@
 ---
 title: 如何更新 Angular CLI
-tags: angular
+tags: Angular
 tagline: 
 ---
 

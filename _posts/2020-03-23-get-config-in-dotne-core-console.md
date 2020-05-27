@@ -1,6 +1,6 @@
 ---
 title: 在 Console 取得 appsetings.json
-tags: dotnetcore
+tags: DotNetCore
 tagline: 
 ---
 

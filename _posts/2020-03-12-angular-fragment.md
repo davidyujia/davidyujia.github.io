@@ -1,6 +1,6 @@
 ---
 title: 在 Angular 使用錨點(fragment)
-tags: angular
+tags: Angular
 tagline: 
 ---
 

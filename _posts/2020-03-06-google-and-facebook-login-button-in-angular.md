@@ -1,6 +1,6 @@
 ---
 title: 在 Angular 專案中使用 Google & Facebook 登入
-tags: angular
+tags: Angular
 tagline: 
 ---
 

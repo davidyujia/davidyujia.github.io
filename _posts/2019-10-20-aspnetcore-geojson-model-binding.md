@@ -1,6 +1,6 @@
 ---
 title: ASP.NET core GeoJson Model Binding
-tags: aspnetcore geojson
+tags: AspNetCore GeoJson
 tagline: 
 ---
 

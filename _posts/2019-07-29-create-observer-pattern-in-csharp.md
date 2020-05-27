@@ -1,6 +1,6 @@
 ---
 title: 使用 ReactiveX 建立 Observer Pattern 
-tags: dotnetcore
+tags: DotNetCore
 tagline: 
 ---
 

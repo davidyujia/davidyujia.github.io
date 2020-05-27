@@ -1,6 +1,6 @@
 ---
 title: 在 .NET Core Angular 範本使用新版本的 Angular 專案
-tags: dotnetcore angular
+tags: DotNetCore Angular
 tagline: 
 ---
 

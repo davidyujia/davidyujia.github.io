@@ -1,6 +1,6 @@
 ---
 title: 建立一個 .NET Core NuGet package
-tags: dotnetcore nuget
+tags: DotNetCore NuGet
 tagline: 
 ---
 

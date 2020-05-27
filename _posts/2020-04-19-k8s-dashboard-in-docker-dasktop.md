@@ -1,6 +1,6 @@
 ---
 title: 在 docker desktop 上的 k8s 使用 dashboard
-tags: docker
+tags: Docker
 tagline: 
 ---
 
