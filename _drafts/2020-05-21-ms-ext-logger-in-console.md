@@ -24,6 +24,6 @@ class Program
         logger.LogError("test");
 
         Console.ReadLine();
-        }
     }
+}
 ```
