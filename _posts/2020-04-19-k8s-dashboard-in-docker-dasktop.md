@@ -1,7 +1,7 @@
 ---
 title: 在 docker desktop 上的 k8s 使用 dashboard
 tags: Docker
-tagline: 
+tagline:
 ---
 
 首先先勾選選項啟動 k8s
@@ -38,10 +38,10 @@ config 可以在 `%USERPROFILE%\.kube` 下找到, 不過試了幾個方式還沒
 
 ![k8s-dashboard][4]
 
-[1]: /assets/images/article/2020-04-19-k8s-dashboard-in-docker-dasktop/docker-desktop-k8s-setting.png
+[1]: /public/article/2020-04-19-k8s-dashboard-in-docker-dasktop/docker-desktop-k8s-setting.png
 
 [2]: https://github.com/kubernetes/dashboard/releases
 
-[3]: /assets/images/article/2020-04-19-k8s-dashboard-in-docker-dasktop/k8s-dashboard-login.png
+[3]: /public/article/2020-04-19-k8s-dashboard-in-docker-dasktop/k8s-dashboard-login.png
 
-[4]: /assets/images/article/2020-04-19-k8s-dashboard-in-docker-dasktop/k8s-dashboard.png
+[4]: /public/article/2020-04-19-k8s-dashboard-in-docker-dasktop/k8s-dashboard.png
