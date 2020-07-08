@@ -21,6 +21,10 @@ google_analytics_id: UA-122167031-1
 # Comments
 disqus-shortname: davidyujia
 
+# SEO
+lang: zh_tw
+logo: "/public/html-coding.png"
+
 exclude:
   - README.md
   - LICENSE.md
