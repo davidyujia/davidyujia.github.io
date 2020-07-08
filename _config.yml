@@ -1,87 +1,31 @@
-### your site title here
+# Setup
+title:               雜物儲存室
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
 
-title: 雜物儲存室
-baseurl: / # name of the repository
-email: davidyujia@gmail.com
-author: David
+# About/contact
+author:
+  name:              David
+  url:               https://github.com/davidyujia
+  email:             davidyujia@gmail.com
 
-# SEO
-lang: zh_tw
-logo: "/assets/images/html-coding.png"
 
-highlighter: rouge
-markdown: kramdown
-
-paginate: 5
-
-# Tracker
-analytics: UA-122167031-1
+# Custom vars
+version:             1.1.0
+google_analytics_id: UA-122167031-1
 
 # Comments
 disqus-shortname: davidyujia
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: "/assets/images/html-coding.png"
-  - scope:
-      path: "/_posts"
-    values:
-      layout: "post"
-      image: "/assets/images/html-coding.png"
-
-#optimization
-#compress.html
-compress_html:
-  clippings:
-    [
-      html,
-      div,
-      p,
-      ul,
-      td,
-      h1,
-      h2,
-      h3,
-      h4,
-      link,
-      meta,
-      footer,
-      nav,
-      img,
-      header,
-      hr,
-      br,
-      head,
-      style,
-      li,
-      ul,
-      ol,
-      time,
-      main,
-      script,
-      title,
-    ]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
-
-include:
-  - _pages
 
 exclude:
   - README.md
   - LICENSE.md
 
+# Gems
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
