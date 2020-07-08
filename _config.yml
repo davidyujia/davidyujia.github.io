@@ -24,8 +24,10 @@ disqus-shortname: davidyujia
 lang: zh_tw
 logo: "/public/html-coding.png"
 
-highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude:
   - README.md
