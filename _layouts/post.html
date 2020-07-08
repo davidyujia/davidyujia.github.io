@@ -8,6 +8,18 @@ layout: default
   {{ content }}
 </div>
 
+{% if page.tags != "" %}
+<span>tags: [
+    {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}">
+        <nobr>{{ tag_name }}</nobr>
+    </a>
+    {% endfor %}
+    ]
+</span>
+{% endif %}
+
 {% if site.related_posts.size >= 1 %}
 <div class="related">
   <h2>Related posts</h2>
