@@ -1,7 +1,7 @@
 # Setup
 title:               雜物儲存室
-tagline:             'coding blog'
-description:         '工作做的帶不走，久了就忘，在此筆記。'
+tagline:             'Coding Blog'
+description:         ''
 url:                 https://davidyujia.github.io
 baseurl:             ''
 paginate:            5
