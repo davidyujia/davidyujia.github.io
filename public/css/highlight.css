@@ -1,4 +1,6 @@
-.highlight{ font-family: 'Source Code Pro'; overflow: auto;}
+.highlight{ font-family: 'Source Code Pro' }
+pre { overflow-x: auto;  white-space: pre }
+.highlight pre { overflow-x: auto;  white-space: pre }
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #008000 } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
