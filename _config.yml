@@ -29,6 +29,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+include:
+  - _pages
+
 exclude:
   - README.md
   - LICENSE.md
