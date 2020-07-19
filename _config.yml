@@ -19,6 +19,10 @@ defaults:
     values:
       image: "/assets/images/html-coding.png"
   - scope:
+      path: "/_pages"
+    values:
+      weight: 99
+  - scope:
       path: "/_posts"
     values:
       layout: "post"
