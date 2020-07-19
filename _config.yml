@@ -18,11 +18,7 @@ defaults:
       path: ""
     values:
       image: "/assets/images/html-coding.png"
-      weight: 99
-  - scope:
-      path: "/_pages"
-    values:
-      weight: 99
+      weight: 0
   - scope:
       path: "/_posts"
     values:
