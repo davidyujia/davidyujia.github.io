@@ -1,7 +1,7 @@
 ---
 title: 在 Console Application 使用 DI
 tags: DotNetCore
-tagline: 
+tagline:
 ---
 
 直接上 code
@@ -11,7 +11,6 @@ dotnet add package Microsoft.Extensions.DependencyInjection --version 3.1.4
 ```
 
 ```cs
-
 // 取得config
 var config = new ConfigurationBuilder()
                 // ...
