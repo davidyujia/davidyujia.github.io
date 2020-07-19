@@ -1,7 +1,7 @@
 ---
 title: 在 .NET Core Angular 範本使用新版本的 Angular 專案
 tags: DotNetCore Angular
-tagline: 
+tagline:
 ---
 
 目前 .NET Core 範本提供的是 Angular 8, 但是想使用新的版本建立專案所以研究了一下
@@ -34,7 +34,7 @@ tagline:
 
     ```json
     {
-    "scripts": {
+      "scripts": {
         "start": "ng serve --verbose"
       }
     }
