@@ -1,18 +1,28 @@
 # Setup
-title:               雜物儲存室
-tagline:             'Coding Blog'
-description:         ''
-url:                 https://davidyujia.github.io
-baseurl:             ''
-paginate:            5
-permalink:           pretty
+title: 雜物儲存室
+tagline: "Coding Blog"
+description: ""
+url: https://davidyujia.github.io
+baseurl: ""
+paginate: 5
+permalink: pretty
 
 # About/contact
 author:
-  name:              David
-  url:               https://github.com/davidyujia
-  email:             davidyujia@gmail.com
+  name: David
+  url: https://github.com/davidyujia
+  email: davidyujia@gmail.com
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/html-coding.png"
+  - scope:
+      path: "/_posts"
+    values:
+      layout: "post"
+      image: "/assets/images/html-coding.png"
 
 # Custom vars
 google_analytics_id: UA-122167031-1
