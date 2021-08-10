@@ -12,7 +12,7 @@ dotnet add package Microsoft.Extensions.Logging.Configuration
 
 ## 建立 LoggerConfiguration
 
-LoggerConfiguration 的作用在於傳入自訂的 Log 元件設定檔, 譬如說 `LogPath` 與 `Log 記錄等級`.
+LoggerConfiguration 的作用在於傳入自訂的 Log 元件設定檔, 比如說 `LogPath` 與 `Log 記錄等級`.
 
 ```cs
 public class CustomLoggerConfiguration
