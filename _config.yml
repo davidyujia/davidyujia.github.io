@@ -26,7 +26,7 @@ defaults:
       image: "/assets/images/html-coding.png"
 
 # Custom vars
-google_analytics_id: UA-122167031-1
+google_analytics_id: G-M7V2WK818X
 
 # Comments
 disqus-shortname: davidyujia
