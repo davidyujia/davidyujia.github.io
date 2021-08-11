@@ -1,7 +1,7 @@
 ---
 title: 我的 .NET Core 專案命名原則
 tags: DotNetCore
-tagline: 
+tagline:
 ---
 
 ## 規則
@@ -21,3 +21,7 @@ tagline:
 將命名為 `{project name}.{component name}.Extensions`, 平台專案將參考此 Library
 
 例如: `MyTeam.TestProject.Logger.Extensions`
+
+1. 連接外部資源
+
+將額外建一個 Library `{project name}.Clients` 或 `{project name}.{client name}`
