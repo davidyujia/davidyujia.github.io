@@ -4,6 +4,8 @@ tags: DotNetCore
 tagline:
 ---
 
+記錄一下目前所使用的架構與命名規則
+
 ## 規則
 
 1. 平台專案與執行檔
@@ -24,4 +26,6 @@ tagline:
 
 1. 連接外部資源
 
-將額外建一個 Library `{project name}.Clients` 或 `{project name}.{client name}`
+將額外建一個 Library 將所有外部資源放在 `{project name}.Clients` 或每個外部獨立一個 Library `{project name}.{component name}`
+
+例如: `MyTeam.TestProject.Clients` or `MyTeam.TestProject.Weather`
