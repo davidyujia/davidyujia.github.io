@@ -64,6 +64,12 @@ constitution 用於建立專案的核心原則和開發指導方針。
 /speckit.constitution Create principles focused on code quality, testing standards, user experience consistency, and performance requirements, while ensuring everything is based on the minimum viable product (MVP) concept, avoid overdesign, and always use Traditional Chinese for all specifications.
 ```
 
+```
+/speckit.constitution Create principles focused on code quality, testing standards, user experience consistency, and performance requirements, while ensuring everything is based on the minimum viable product (MVP) concept, avoid overdesign.
+
+All specifications, plans, and user-facing documentation MUST be written in Traditional Chinese (zh-TW)
+```
+
 這個指令會產生 `.speckit/constitution.md` 檔案，包含專案的核心原則。
 
 ### specify - 建立功能規格
